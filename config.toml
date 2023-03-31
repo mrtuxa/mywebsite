@@ -1,19 +1,47 @@
-baseURL = 'https://mrtuxa.link/'
-languageCode = 'en-us'
-title = "mrtuxa's Portfolio"
+baseURL = "https://mrtuxa.link/"
+languageCode = "en-us"
+title = "mrtuxa's blog"
+theme = "github-style"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
-lastmod = true
-theme = "github-style"
-[[params.links]]
+
+
+[params]
+  author = "mrtuxa"
+  description = "mrtuxa's blog"
+  github = "mrtuxa"
+  email = "mrtuxa@leipzig.freifunk.net"
+  url = "https://meik2333.com"
+  keywords = "blog,freifunk,veganism,veganismus,flakes,nixos,nix,git,archlinux,linux,ubuntu"
+  rss = true
+  lastmod = true
+  userStatusEmoji = "😀"
+  favicon = "https://avatars.githubusercontent.com/u/69870860"
+  location = "Leipzig"
+  enableGitalk = true
+
+  [params.gitalk]
+    clientID = "dc8d6d147c3c04904fc5" 
+    clientSecret = "880b1516172dd2161870a23284e92911992a08de" 
+    repo = "repo"
+    owner = "mrtuxa"
+    admin = "mrtuxa"
+    id = "location.pathname"
+    labels = "gitalk"
+    perPage = 15
+    pagerDirection = "last"
+    createIssueManually = true
+    distractionFreeMode = false
+
+  [[params.links]]
     title = "Link"
     href = "https://freifunk-leipzig.de"
-[[params.links]]
-   title = "Link2"
-   href = "https://github.com/mrtuxa"
-   icon = "https://avatars.githubusercontent.com/u/69870860"
-
+    icon = "https://freifunk-leipzig.de/images/ffl.svg"
+  [[params.links]]
+    title = "Link2"
+    href = "https://dezentrale.space"
+    icon = "https://wiki.dezentrale.space/images/2/29/LogoDezentrale-HexaOnly.svg"
 
 [frontmatter]
   lastmod = ["lastmod", ":fileModTime", ":default"]
-enableGitalk = false
+
