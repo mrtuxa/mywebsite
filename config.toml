@@ -7,11 +7,11 @@ lastmod = true
 theme = "github-style"
 [[params.links]]
     title = "Link"
-    href = "https://github.com/meik2333"
-  [[params.links]]
-    title = "Link2"
-    href = "https://github.com/mrtuxa"
-    icon = "https://avatars.githubusercontent.com/u/69870860"
+    href = "https://freifunk-leipzig.de"
+[[params.links]]
+   title = "Link2"
+   href = "https://github.com/mrtuxa"
+   icon = "https://avatars.githubusercontent.com/u/69870860"
 
 
 [frontmatter]
