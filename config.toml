@@ -21,7 +21,7 @@ pygmentsUseClasses = true
 
   [params.gitalk]
     clientID = "dc8d6d147c3c04904fc5" 
-    clientSecret = "880b1516172dd2161870a23284e92911992a08de" 
+    clientSecret = "17cda4f0f3180ed87a4cf65df3be5bc84b048f75" 
     repo = "mywebsite"
     owner = "mrtuxa"
     admin = "mrtuxa"
