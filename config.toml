@@ -1,18 +1,17 @@
-baseURL = "https://mrtuxa.link/"
+baseURL = "https://mrtuxa.link"
 languageCode = "en-us"
 title = "mrtuxa's blog"
 theme = "github-style"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 
-
 [params]
   author = "mrtuxa"
-  description = "mrtuxa's blog"
+  description = "Junior Developer"
   github = "mrtuxa"
   email = "mrtuxa@leipzig.freifunk.net"
-  url = "https://meik2333.com"
-  keywords = "blog,freifunk,veganism,veganismus,flakes,nixos,nix,git,archlinux,linux,ubuntu"
+  url = "https://mrtuxa.link"
+  keywords = "blog, freifunk"
   rss = true
   lastmod = true
   userStatusEmoji = "😀"
@@ -23,7 +22,7 @@ pygmentsUseClasses = true
   [params.gitalk]
     clientID = "dc8d6d147c3c04904fc5" 
     clientSecret = "880b1516172dd2161870a23284e92911992a08de" 
-    repo = "repo"
+    repo = "mywebsite"
     owner = "mrtuxa"
     admin = "mrtuxa"
     id = "location.pathname"
@@ -44,4 +43,3 @@ pygmentsUseClasses = true
 
 [frontmatter]
   lastmod = ["lastmod", ":fileModTime", ":default"]
-
