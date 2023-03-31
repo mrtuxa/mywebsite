@@ -1,6 +1,6 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://mrtuxa.link/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "mrtuxa's Portfolio"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 lastmod = true
