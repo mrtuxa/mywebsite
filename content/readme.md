@@ -1,8 +1,6 @@
 # 💫 About Me
 📍 Chill Out: dezentrale e.V.
 
-📍 Ausbildung `Fachinformatiker Anwendungsentwicklung`
-
 🤝 Werde heute noch Teil des Leipziger Freifunk Netzes *https://freifunk-leipzig.de* 
 
 👋 Junior Developer
